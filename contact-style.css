@@ -127,9 +127,9 @@ nav a:hover {
     padding-top: 50px;
     padding-bottom: 50px;
     margin-left: 20%;
-    margin-right: 20%;
-    border-bottom: 1px solid #999;
-    width: 60%;
+    /*margin-right: 20%;
+    border-bottom: 1px solid #999;*/
+    width: 29%;
     float: left;
     display: block;
 }
@@ -138,10 +138,8 @@ nav a:hover {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
     font-size: 32px;
-    width:60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
+    width:100%;
+    text-align: left;
     color: black;
     padding-bottom: 30px;
 }
@@ -149,198 +147,119 @@ nav a:hover {
 .info h2 {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
-    width:60%;
+    width:100%;
     margin-left: 20%;
     margin-right: 20%;
     font-size: 20px;
 }
 
-.info h4 {
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    font-style: italic;
-    font-size: 16px;
-    width:60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-    color: #000;
-    padding: 5px;
-}
-
 .info p {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
-    width:60%;
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-    color: #000;
-    /*grey color: 
-    color: #999; */
+    font-size: 20px;
+    width:100%;
+    text-align: left;
+    color: #999;
     padding: 5px;
 }
 
 /*-----------------------------------------------------------
-        Current Projects
+        image-right
 /*-----------------------------------------------------------*/
-#find-out-more ul {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    width:100%%;
-    padding-top: 25px;
-}
-
-#find-out-more li {
-    display: inline;
-}
-
-#find-out-more a {
-    color: black;  
-    text-decoration: none;
-    font-size: 15px;
-    padding: 15px;
-    border: 2px solid black;
-    background-color: #FFF;
-}
-#find-out-more a:hover {
-    background-color: black;
-    color: white;
-}
-
-/*-----------------------------------------------------------
-        Experience
-/*-----------------------------------------------------------*/
-#experience {
-    
-}
-/*-----------------------------------------------------------
-        skills
-/*-----------------------------------------------------------*/
-#skills-table {
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    width:60%;
-    margin-left:20%;
-}
-
-#skills-table h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-}
-#skills-table h3 {
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    line-height: 40px;
-    font-size: 22px;
-    width:100%;
-}
-
-@media screen and (max-width: 650px){
-    #skills-table {
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    width:90%;
-    margin-left:5%;
-}
-
-#skills-table h1 {
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    font-size: 32px;
-    line-height: 40px;
-}
-#skills-table h3 {
-    font-family: 'Lato', sans-serif;
-    font-weight: normal;
-    line-height: 22px;
-    font-size: 16px;
-    width:100%;
-}
-}
-
-#skills-table ul { 
-    color: #999;
-}
-
-#skills-table li {
-    padding-left: 5px;
-    list-style-type: none;
-    
-}
-
-
-#skills-table-col1 {
+.image-right {
     float: left;
-    width: 33%;
-}
-
-#skills-table-col1 ul {
-    text-decoration: none;
-}
-
-#skills-table-col2 {
-    float: left;
-    width: 50%;
-    text-align:center;
-}
-
-#skills-table-col3 {
-    float: right;
-    text-align: center;
-    width: 50%;
-}
-/*-----------------------------------------------------------
-        resume
-/*-----------------------------------------------------------*/
-
-#resume-download ul {
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    width:100%%;
-}
-
-#resume-download li {
-    display: inline;
-}
-
-#resume-download a {
-    color: black;  
-    text-decoration: none;
-    font-size: 15px;
-    padding: 15px;
-    border: 2px solid black;
-    background-color: #FFF;
-}
-#resume-download a:hover {
-    background-color: black;
-    color: white;
-}
-
-
-/*-----------------------------------------------------------
-        footer1
-/*-----------------------------------------------------------
-
-/*
-#footer1 {
-    width: 100%;
-    height:60px;
-    background-color: darkgrey;
+    height:500px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left:2%;
+    width: 29%;
     display: block;
-    float: left;
+    background: url(me.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: lightgrey;
+    opacity: 0.8;
 }
 
-#footer1 p {
+/*-----------------------------------------------------------
+        messenger
+/*-----------------------------------------------------------*/
+.messenger {
+    border-top: 1px solid #999;
+    float: left;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 20%;
+    margin-left:20%;
+    width: 60%;
+    display: block;
+}
+
+.messenger h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    width:100%;
+    text-align: left;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.messenger h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    width:100%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+.messenger p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    width:100%;
+    text-align: left;
+    color: #999;
+    padding: 5px;
+}
+/*-----------------------------------------------------------
+        contact buttons
+/*-----------------------------------------------------------*/
+#contact-buttons ul {
     font-family: 'Lato', sans-serif;
     text-align: center;
-    color: white;
-    font-size: 30px;
+    width:60%;
+    margin-top: 30px;
+}
+
+#contact-buttons li {
+    border: 2px solid black;
+    list-style-type: none;
+    margin-top: 2px;
+    height: 60px;
     line-height: 60px;
 }
 
+#contact-buttons li:hover {
+    background-color: black;
+    color: white;
+}
+#contact-buttons a {
+    color: black;  
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 60px;
+    padding:0;
+    background-color: #FFF;
+    color: #000;
+}
+/*
+#contact-buttons a:hover {
+    background-color: black;
+    color: white;
+}
 */
 /*-----------------------------------------------------------
         footer: like my work
@@ -400,26 +319,6 @@ nav a:hover {
     padding-bottom:30px;
     line-height: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
