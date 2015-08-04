@@ -1,0 +1,403 @@
+/*-----------------------------------------------------------
+        Big
+/*-----------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------------------------------------------
+        Top
+/*-----------------------------------------------------------*/
+.top {
+    height: 654px;
+    background: url(bridge.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-color: lightgrey;
+    opacity: 0.8;
+    border-bottom: 2px solid darkgrey;
+}
+
+/*-----------------------------------------------------------
+        Center Engineer
+/*-----------------------------------------------------------*/
+#engineer-container {
+    width:50%;
+    margin-left:25%;
+    padding-top:300px;
+    opacity: 1;
+}
+
+#engineer-container h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+#engineer-buttons { 
+    font-family: 'Lato', sans-serif;
+}
+
+#engineer-buttons ul {
+    text-align: center;
+    width: 100%;
+    line-height: 60px;
+}
+
+#engineer-buttons li {
+    display: inline;
+}
+
+#engineer-buttons a {
+    color: black;  
+    text-decoration: none;
+    font-size: 20px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: lightgray;
+    border: 2px solid black;
+    
+}
+
+#engineer-buttons a:hover {
+    color: #FFF;
+    background-color: black;
+}
+
+
+
+
+
+/*-----------------------------------------------------------
+        Name
+/*-----------------------------------------------------------*/
+
+#name {
+    font-family: 'Lato', sans-serif;
+    line-height: 80px;
+    font-size: 60px;
+    color: #FFF;
+    float: left;
+    padding-left: 12px;
+    text-shadow: 2px 2px #666666;
+    /*-webkit-text-stroke: 2px black;*/
+}
+
+/*-----------------------------------------------------------
+        Nav
+/*-----------------------------------------------------------*/
+
+nav {   
+}
+
+nav ul {
+    font-family: 'Lato', sans-serif;
+    float: right;
+    line-height: 80px;
+    margin-right:25px;
+}
+
+nav li {
+    font-family: sans-serif;
+    font-size: 20px;
+    display: inline;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #666666;
+    padding-left:10px;
+    padding-right: 10px;
+    border: 2px solid #666666;
+    background-color: white;
+}
+
+nav a:hover {
+    color: white;
+    background-color: #666666;
+}
+
+
+/*-----------------------------------------------------------
+        info
+/*-----------------------------------------------------------*/
+.info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 1px solid #999;
+    width: 60%;
+    float: left;
+    display: block;
+}
+
+.info h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 32px;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    color: black;
+    padding-bottom: 30px;
+}
+
+.info h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 20px;
+}
+
+.info h4 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    color: #000;
+    padding: 5px;
+}
+
+.info p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    width:60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    color: #000;
+    /*grey color: 
+    color: #999; */
+    padding: 5px;
+}
+
+/*-----------------------------------------------------------
+        Current Projects
+/*-----------------------------------------------------------*/
+#find-out-more ul {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    width:100%%;
+    padding-top: 25px;
+}
+
+#find-out-more li {
+    display: inline;
+}
+
+#find-out-more a {
+    color: black;  
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: #FFF;
+}
+#find-out-more a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*-----------------------------------------------------------
+        Experience
+/*-----------------------------------------------------------*/
+#experience {
+    
+}
+/*-----------------------------------------------------------
+        skills
+/*-----------------------------------------------------------*/
+#skills-table {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    width:60%;
+    margin-left:20%;
+}
+
+#skills-table h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 40px;
+}
+#skills-table h3 {
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 40px;
+    
+    width:100%;
+    
+    
+}
+
+#skills-table ul { 
+    color: #999;
+}
+
+#skills-table li {
+    padding-left: 5px;
+    list-style-type: none;
+    
+}
+
+
+#skills-table-col1 {
+    float: left;
+    width: 33%;
+}
+
+#skills-table-col1 ul {
+    text-decoration: none;
+}
+
+#skills-table-col2 {
+    float: left;
+    width: 33%;
+}
+
+#skills-table-col3 {
+    float: left;
+    width: 33%;
+}
+
+/*-----------------------------------------------------------
+        resume
+/*-----------------------------------------------------------*/
+
+#resume-download ul {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    width:100%%;
+}
+
+#resume-download li {
+    display: inline;
+}
+
+#resume-download a {
+    color: black;  
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    background-color: #FFF;
+}
+#resume-download a:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*-----------------------------------------------------------
+        footer1
+/*-----------------------------------------------------------
+
+/*
+#footer1 {
+    width: 100%;
+    height:60px;
+    background-color: darkgrey;
+    display: block;
+    float: left;
+}
+
+#footer1 p {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+*/
+/*-----------------------------------------------------------
+        footer: like my work
+/*-----------------------------------------------------------*/
+#footer {
+    width: 100%;
+    height:135px;
+    display: block;
+    float: left;
+    background-color: black;
+}
+
+#footer h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+    font-weight: normal;
+    padding-top:20px;
+    line-height: 20px;
+}
+
+#footer ul {
+    text-align: center;
+    padding-top:15px;
+}
+
+#footer li {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    display: inline;
+    
+}
+
+#footer a {
+    text-decoration: none;
+    color: #FFF;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:2px solid white;
+}
+
+#footer a:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+#footer h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    color: #FFF;
+    font-weight: normal;
+    padding-top:10px;
+    padding-bottom:30px;
+    line-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
