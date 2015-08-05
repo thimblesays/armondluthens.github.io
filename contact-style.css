@@ -11,7 +11,7 @@
 /*-----------------------------------------------------------*/
 .top {
     height: 654px;
-    background: url(trees.jpeg);
+    background: url(colorful_mountains.jpeg);
     background-size: cover;
     background-position: center;
     background-color: lightgrey;
@@ -33,7 +33,6 @@
     text-align: center;
     color: white;
     font-size: 50px;
-    text-shadow: 4px 4px black;
 }
 
 #engineer-buttons { 
