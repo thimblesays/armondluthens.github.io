@@ -12,6 +12,18 @@
         font-size: 30px;
     }
     
+    nav ul {
+        font-family: 'Lato', sans-serif;
+        float: left;
+        line-height: 80px;
+        width:90%;
+        margin-left: 5%;
+        margin-rigth: 5%;
+    }
+    
+    nav li a {
+    }
+    
     .info {
         padding-top: 30px;
         padding-bottom: 30px;
