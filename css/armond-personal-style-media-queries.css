@@ -8,11 +8,17 @@
         padding-top:300px;
         opacity: 1;
     }
-
     #engineer-container h1 {
+        display:none;
+    }
+    #engineer-container h2 {
+        display:block;
         text-align: center;
         color: black;
         font-size: 30px;
+    }
+    #engineer-buttons { 
+        display: none;
     }
     
     nav {

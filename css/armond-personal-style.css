@@ -35,6 +35,10 @@
     font-size: 50px;
 }
 
+#engineer-container h2 {
+    display: none;
+}
+
 #engineer-buttons { 
     font-family: 'Lato', sans-serif;
 }
@@ -64,9 +68,6 @@
     color: #FFF;
     background-color: black;
 }
-
-
-
 
 
 /*-----------------------------------------------------------
