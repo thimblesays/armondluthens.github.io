@@ -11,7 +11,7 @@
 /*-----------------------------------------------------------*/
 .top {
     height: 654px;
-    background: url(colorful_mountains.jpeg);
+    background: url(pictures/colorful_mountains.jpeg);
     background-size: cover;
     background-position: center;
     background-color: lightgrey;
@@ -175,7 +175,7 @@ nav a:hover {
     margin-left:2%;
     width: 29%;
     display: block;
-    background: url(me.jpg);
+    background: url(pictures/me.jpg);
     background-size: cover;
     background-position: center;
     background-color: lightgrey;
