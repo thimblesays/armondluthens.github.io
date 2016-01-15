@@ -7,10 +7,31 @@
 }
 
 /*-----------------------------------------------------------
+        Page Loader
+/*-----------------------------------------------------------*/
+    #load_screen{
+        background: white;
+        opacity: 1;
+        z-index: 10;
+        width: 100%;
+        top: 0px;
+        height: 2000px;
+    }
+    #loading img{
+        color: #FFF;
+        width: 7%;
+        height: 100px;
+        margin-top: 300px;
+        margin-left: 46.5%;
+        margin-right: 46.5%;
+    }
+
+/*-----------------------------------------------------------
         Top
 /*-----------------------------------------------------------*/
 .top {
     height: 654px;
+    background-image:url(466.GIF);
     background: url(pictures/sailboat.jpeg);
     background-size: cover;
     background-position: center;

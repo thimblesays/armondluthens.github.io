@@ -10,8 +10,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/armond-personal-style.css">
         <link rel="stylesheet" href="css/armond-personal-style-media-queries.css">
+        
+        <script>
+            window.addEventListener("load", function(){
+                var load_screen = document.getElementById("load_screen");
+                document.body.removeChild(load_screen);
+            })
+        </script>
     </head>
     <body>
+        <div id="load_screen"><div id="loading"><img src="css/loader.gif" alt="LOAD"></div></div>
         <div class="top">
             <div id="name">
                 A.L.
