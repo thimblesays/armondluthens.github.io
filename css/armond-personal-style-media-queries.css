@@ -1,4 +1,12 @@
 @media screen and (max-width: 480px) {
+    #loading img{
+        color: #FFF;
+        width: 10%;
+        height: 100px;
+        margin-top: 200px;
+        margin-left: 45%;
+        margin-right: 45%;
+    }
     .top{
         width: 100%;
     }
