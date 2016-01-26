@@ -6,6 +6,9 @@
     padding: 0;
 }
 
+/*-----------------------------------------------------------
+        Header
+/*-----------------------------------------------------------*/
 .header{
     margin-top: 1%;
     width: 98%;
@@ -58,6 +61,9 @@ span a:hover{
     color: orangered;
 }
 
+/*-----------------------------------------------------------
+        Portfolio Bio
+/*-----------------------------------------------------------*/
 .individual-content{
     width: 70%;
     margin-left: 15%;
@@ -91,15 +97,7 @@ span a:hover{
     margin-bottom: 15px;
     
 }
-/*
-.individual-content img{
-    float: left;
-    width: 30%;
-    height: 300px;
-    margin-left: 0%;
-    margin-bottom: 15px;
-}
-*/
+
 .individual-content p{
     float: left;
     width: 90%;
@@ -149,6 +147,10 @@ span a:hover{
     opacity: 1.0;
 }
 
+/*-----------------------------------------------------------
+        Button
+/*-----------------------------------------------------------*/
+
 .portfolio{
     font-family: 'Lato', sans-serif;
     background-color: white;
@@ -179,6 +181,10 @@ span a:hover{
     float: left;
     padding-top: 20px;
 }
+
+/*-----------------------------------------------------------
+        Individual Projects
+/*-----------------------------------------------------------*/
 .projects{
     padding-top: 30px;
     float: left;
@@ -228,7 +234,9 @@ span a:hover{
 
 
 
-
+/*-----------------------------------------------------------
+        Footer
+/*-----------------------------------------------------------*/
 .footer{
     background-color:white;
     float: left;

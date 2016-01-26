@@ -6,6 +6,9 @@
     padding: 0;
 }
 
+/*-----------------------------------------------------------
+        Header
+/*-----------------------------------------------------------*/
 .header{
     margin-top: 1%;
     width: 98%;
@@ -58,6 +61,10 @@ span a:hover{
     color: orangered;
 }
 
+/*-----------------------------------------------------------
+        Bio Content
+/*-----------------------------------------------------------*/
+
 .individual-content{
     width: 98%;
     margin-left: 1%;
@@ -76,29 +83,6 @@ span a:hover{
     margin-bottom: 15px;
 }
 
-#photos{
-    width:90%;
-    margin-left:5%;
-}
-
-#photos img{
-    float: left;
-    width: 25%;
-    height: 300px;
-    margin-left: 4.1666666%;
-    margin-right: 4.1666666%;
-    margin-bottom: 15px;
-    
-}
-/*
-.individual-content img{
-    float: left;
-    width: 30%;
-    height: 300px;
-    margin-left: 0%;
-    margin-bottom: 15px;
-}
-*/
 .individual-content p{
     float: left;
     width: 90%;
@@ -118,7 +102,28 @@ span a:hover{
     color: white;
     margin-bottom: 20px;
 }
+/*-----------------------------------------------------------
+        Images Section
+/*-----------------------------------------------------------*/
 
+#photos{
+    width:90%;
+    margin-left:5%;
+}
+
+#photos img{
+    float: left;
+    width: 25%;
+    height: 300px;
+    margin-left: 4.1666666%;
+    margin-right: 4.1666666%;
+    margin-bottom: 15px;
+}
+
+
+/*-----------------------------------------------------------
+        Bio Content
+/*-----------------------------------------------------------*/
 #personal{
     float: left;
     width: 90%;
@@ -143,6 +148,9 @@ span a:hover{
     opacity: 1.0;
 }
 
+/*-----------------------------------------------------------
+        Portfolio Button
+/*-----------------------------------------------------------*/
 .portfolio{
     font-family: 'Lato', sans-serif;
     background-color: white;
@@ -169,8 +177,9 @@ span a:hover{
     cursor:alias;
 }
 
-
-
+/*-----------------------------------------------------------
+        Footer
+/*-----------------------------------------------------------*/
 .footer{
     background-color:white;
     float: left;
