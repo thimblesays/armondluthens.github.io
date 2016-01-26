@@ -1,0 +1,197 @@
+/*-----------------------------------------------------------
+        Big
+/*-----------------------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    margin-top: 1%;
+    width: 98%;
+    margin-left: 1%;
+    background-color: white;
+    height: 150px;
+    float: left;
+    border-bottom: 2px solid black;
+}
+span a{
+    color: black;
+}
+span a:hover{
+    color: orangered;
+}
+.header h1{
+    padding-top: 30px;
+    float: left;
+    margin-left: 2.5%;
+    font-size: 40px;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.header ul{
+    /*font-family: 'Merriweather', serif;*/
+    padding-top: 30px;
+    float: right;
+    margin-right: 2.5%;
+}
+
+
+.header li {
+    font-family: 'Lato', sans-serif;
+    /*font-family: sans-serif;*/
+    font-size: 26px;
+    display: inline;
+    
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    padding-left:10px;
+    padding-right: 10px;
+}
+
+.header a:hover {
+    color: orangered;
+}
+
+.individual-content{
+    width: 70%;
+    margin-left: 15%;
+    background-color: white;
+    float: left;
+    padding-bottom: 150px;
+    /*border-bottom: 2px solid black;*/
+}
+
+.individual-content h1{
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.individual-content p{
+    float: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.individual-content ul{
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+span a{
+    text-decoration: underline;
+}
+span a:hover{
+    color: orangered;
+}
+
+.portfolio{
+    font-family: 'Lato', sans-serif;
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    margin-top: 5px;
+    color: black;
+    float: left;
+    margin-left: 40%;
+    font-size: 21px;
+    border-radius: 25px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+.portfolio a{
+    text-decoration: none;
+}
+
+.portfolio:hover{
+    background-color: white;
+    color: orangered;
+    cursor:alias;
+}
+
+.social-media{
+    width: 70%;
+    margin-left: 15%;
+    background-color: white;
+    float: left;
+    padding-bottom: 50px;
+    border-bottom: 2px solid black;
+}
+.social-media a{
+    opacity: 0.7;
+}
+.social-media a:hover{
+    opacity: 1.0;
+}
+.social-media img{
+    width: 9.5%;
+    margin-left:7.5%;
+    margin-right:7.5%;
+    height: 100px;
+}
+
+.footer{
+    background-color:white;
+    float: left;
+    width: 98%;
+    margin-left: 1%;
+    border-top: 2px solid white;
+    margin-bottom: 1%;
+}
+
+.footer ul{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+
+.footer li {
+    font-family: sans-serif;
+    font-size: 26px;
+    display: inline;
+    
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    padding-left:10px;
+    padding-right: 10px;
+    
+}
+
+.footer a:hover {
+    color: orangered;
+}
+
+.footer img{
+    opacity: 0.7;
+    height: 50px;
+    width: 50px;
+}
+.footer img:hover{
+    opacity: 1.0;
+}

@@ -1,0 +1,112 @@
+@media screen and (max-width: 950px) {
+    .individual-content img{
+        width: 35%;
+    }
+    
+    .individual-content p{    
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 680px) { 
+    .header{
+        height: 175px;
+    }
+    .header ul{
+        float: left;
+        margin-right: 2.5%;
+    }
+    .individual-content img{
+        width: 70%;
+        margin-left:15%;
+        margin-right:15%;
+    }
+    
+    .individual-content p{
+        width: 70%;
+        margin-left:15%;
+        margin-right:15%;
+        font-size: 18px;
+    }
+    .header h1{
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .header{
+        height: 200px;
+    }
+    #photos img{
+        float: left;
+        width: 80%;
+        height: 300px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5px;
+    
+    }
+    
+    .portfolio{
+        width: 50%;
+        margin-left: 20%;
+        font-size: 21px;
+    }
+    .header li {
+        font-size: 22px;
+    
+    }
+    
+    .individual-content{
+        width: 95%;
+        margin-left: 2.5%;
+        padding-bottom: 50px;
+    }
+
+    .individual-content h1{
+        width: 90%;
+        margin-left: 5%;
+        font-size: 40px;
+    }
+
+    .individual-content p{     
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+    }
+    
+    .projects{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .projects h1{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 30px;
+    }
+
+    .projects img{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
+
+    .projects p{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 21px;
+    }
+
+
+}
+
+
+
