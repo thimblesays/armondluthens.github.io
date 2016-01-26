@@ -69,7 +69,17 @@
     }
 
 }
-
+@media screen and (max-width: 620px) {
+    .footer{
+        display: none;
+    }
+    .footer1{
+        display: block;
+    }
+    .footer2{
+        display: block;
+    }
+}
 @media screen and (max-width: 480px) {
     .header{
         height: 225px;
@@ -147,6 +157,16 @@
         padding-left:5%;
         padding-right:5%;
         height: 70px;
+    }
+    
+    .footer{
+        display: none;
+    }
+    .footer1{
+        display: block;
+    }
+    .footer2{
+        display: block;
     }
 
 
