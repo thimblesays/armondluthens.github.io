@@ -125,6 +125,13 @@
 .footer a:hover {
     color: orangered;
 }
+.footer p{
+    float:left;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
 
 .footer img{
     opacity: 0.7;
